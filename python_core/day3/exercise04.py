@@ -15,20 +15,20 @@
 低能：80以下
 """
 
-MA = int(input("请输入心理年龄："))
-CA = int(input("请输入实际年龄："))
+ma = int(input("请输入心理年龄："))
+ca = int(input("请输入实际年龄："))
 
-IQ = MA // CA * 100
+iq = ma // ca * 100
 
-if IQ >= 140:
+if iq >= 140:
     print("天才")
-elif 120 < IQ <= 139:
+elif 120 < iq <= 139:
     print("超常")
-elif 110 < IQ <= 119:
+elif 110 < iq <= 119:
     print("聪慧")
-elif 90 < IQ <= 109:
+elif 90 < iq <= 109:
     print("正常")
-elif 80 < IQ <= 89:
+elif 80 < iq <= 89:
     print("迟钝")
 else:
     print("低能")
