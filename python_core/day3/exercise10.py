@@ -13,7 +13,7 @@ import random
 
 random_number = random.randint(1, 100)
 count = 1
-while True:
+while count > 3:
     number = int(input("请输入要猜的数字："))
 
     if random_number > number:
